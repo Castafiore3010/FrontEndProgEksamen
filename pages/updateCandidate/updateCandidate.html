@@ -1,0 +1,46 @@
+<template>
+  <div class="crud-box" id="updateForm1" >
+    <h2>Redigér Kandidat</h2>
+    <form id="createCandidateForm">
+      <div class="user-box">
+        <select name="" required="" id="partyUpdateCandidate" form="createCandidateForm">
+        </select>
+        <label>Parti</label>
+      </div>
+      <div class="user-box">
+        <select name="" required="" id="idUpdateCandidate" form="createCandidateForm" disabled>
+        </select>
+        <label>Kandidat</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="" required="" id="firstNameUpdateCandidate" autocomplete="off" disabled>
+        <label>Fornavn(e)</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="" required="" id="lastNameUpdateCandidate" autocomplete="off" disabled>
+        <label>Efternavn</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="" required="" id="votesUpdateCandidate" autocomplete="off" disabled>
+        <label>Antal stemmer</label>
+      </div>
+      <a href="" id="updateCandidateBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Opdatér Kandidat
+      </a>
+      <a href="" id="resetForm">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Ryd
+      </a>
+      <div id="addedTool">
+        <p id="addedToolText"></p>
+      </div>
+    </form>
+  </div>
+</template>

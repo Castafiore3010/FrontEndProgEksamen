@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closeSidebarBtn" id="closeSidebarBtn">×</a>
+        <a href="/createCandidate" data-navigo>Tilføj Kandidat</a>
+        <a href="/updateCandidate" data-navigo>Redigér Kandidat</a>
+        <a href="/deleteCandidate" data-navigo>Slet Kandidat</a>
+    </div>
+
+    <button class="openSidebarBtn" id="openSidebarBtn">☰ Admin Menu</button>
+
+    <a href="#" class="logo">KOMMUNAL VALG HELSINGØR, NOVEMBER 2021</a>
+    <ul>
+        <li><a href="/" class="active" id="homeLink" data-navigo>Hjem</a></li>
+        <li><a href="/parties"  id="partyLink" data-navigo>Partier</a></li>
+        <li><a href="/candidates" id="candidateLink" data-navigo>Kandidater</a></li>
+
+    </ul>
+</header>
+
+<section>
+    <a href="#" class="logo"></a>
+    <img src="./images/helsingør.jpg">
+</section>
+
+<div id="content" class="secondPart"></div>
+
+</body>
+</html>
